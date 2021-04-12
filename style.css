@@ -1,0 +1,25 @@
+#container{
+
+    text-align: center;
+    background-color: rgb(247, 246, 248);
+    width: 944px;
+    height: 530px;
+    margin: 0px auto;
+    padding: 20px;;
+     
+}
+#divOne{
+    margin: 0px auto;
+}
+
+#divTwo{
+    width: 270px;
+    height: 150px;
+    margin: 0px auto;
+}
+
+#divThree{
+    width: 250px;
+    height: 150px;
+    margin: 0px auto;
+}
