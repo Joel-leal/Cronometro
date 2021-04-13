@@ -17,17 +17,17 @@ function myFunction() {
     element.innerText = "faltam " + contador + " segundos";
 
     alpha -= 0.15;
-    const root = document.getElementById("container");
+    const root = document.getElementById("corpo");
     root.style.backgroundColor = `rgb(${red},${green},${blue},${alpha})`;
 
     const backDivOne = document.getElementById("divTwo");
     backDivOne.style.background = "url('https://thumbs.gfycat.com/SelfreliantClutteredBlackpanther-max-1mb.gif')";
-    document.getElementById("divOne").style.display = "none";
+    document.getElementById("divOne").style.display = "none"; // ocultando a divOne quanto o contador
      
       
       if(contador == 0){
-      document.getElementById("divTwo").remove();
-      document.getElementById("retCronometro").remove();
+      document.getElementById("divTwo").remove(); //remover a div divTow quando o contador acabar de contar. 
+      document.getElementById("retCronometro").remove(); //remover a div retCronometro quando o contador acabar de contar
       
     
       const backDivTwo = document.getElementById("divThree");
