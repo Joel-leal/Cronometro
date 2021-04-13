@@ -1,24 +1,22 @@
-#container{
-
-    text-align: center;
-    width: 944px;
-    height: 530px;
-    margin: 0px auto;
-    padding: 20px;;
-     
+#container {
+  text-align: center;
+  width: 944px;
+  height: 530px;
+  margin: 0px auto;
+  padding: 20px;
 }
-#divOne{
-    margin: 0px auto;
+#div-one {
+  margin: 0px auto;
 }
 
-#divTwo{
-    width: 270px;
-    height: 150px;
-    margin: 0px auto;
+#div-two {
+  width: 270px;
+  height: 150px;
+  margin: 0px auto;
 }
 
-#divThree{
-    width: 250px;
-    height: 150px;
-    margin: 0px auto;
+#div-three {
+  width: 250px;
+  height: 150px;
+  margin: 0px auto;
 }
