@@ -13,28 +13,28 @@ function timeTranslator() {
 function myFunction() {
   if (contador > 0) {
     contador -= 1;
-    const element = document.getElementById("retCronometro");
-    element.innerText = "faltam " + contador + " segundos";
+    const timer = document.getElementById("ret-cronometro");
+    timer.innerText = "faltam " + contador + " segundos";
 
     alpha -= 0.15;
-    const root = document.getElementById("corpo");
+    const root = document.getElementById("body");
     root.style.backgroundColor = `rgb(${red},${green},${blue},${alpha})`;
 
-    const backDivOne = document.getElementById("divTwo");
+    const backDivOne = document.getElementById("div-two");
     backDivOne.style.background = "url('https://thumbs.gfycat.com/SelfreliantClutteredBlackpanther-max-1mb.gif')";
-    document.getElementById("divOne").style.display = "none"; // ocultando a divOne quanto o contador
+    document.getElementById("div-one").style.display = "none"; // ocultando a div-one quanto o contador
      
       
       if(contador == 0){
-      document.getElementById("divTwo").remove(); //remover a div divTow quando o contador acabar de contar. 
-      document.getElementById("retCronometro").remove(); //remover a div retCronometro quando o contador acabar de contar
+        backDivOne.remove(); //remover a div divTow quando o contador acabar de contar. 
+        timer.remove(); //remover a div retCronometro quando o contador acabar de contar
       
     
-      const backDivTwo = document.getElementById("divThree");
-      backDivTwo.style.background = "url('https://thumbs.gfycat.com/DifferentDimpledHamster-max-1mb.gif')";
+        const backDivTwo = document.getElementById("div-three");
+        backDivTwo.style.background = "url('https://thumbs.gfycat.com/DifferentDimpledHamster-max-1mb.gif')";
 
-      var buttonReset = document.getElementById('reset');
-      buttonReset.insertAdjacentHTML('afterend', '<div id="reset"> <input type="button" value="Resetar" onClick="window.location.reload()"></div>');
+        var buttonReset = document.getElementById('reset');
+        buttonReset.insertAdjacentHTML('afterend', '<div id="reset"> <input type="button" value="Resetar" onClick="window.location.reload()"></div>');
       }
   }
   
