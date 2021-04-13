@@ -21,21 +21,22 @@ function myFunction() {
     root.style.backgroundColor = `rgb(${red},${green},${blue},${alpha})`;
 
     const backDivOne = document.getElementById("div-two");
-    backDivOne.style.background = "url('https://thumbs.gfycat.com/SelfreliantClutteredBlackpanther-max-1mb.gif')";
+    backDivOne.style.background =
+      "url('https://thumbs.gfycat.com/SelfreliantClutteredBlackpanther-max-1mb.gif')";
     document.getElementById("div-one").style.display = "none"; // ocultando a div-one quanto o contador
-     
-      
-      if(contador == 0){
-        backDivOne.remove(); //remover a div divTow quando o contador acabar de contar. 
-        timer.remove(); //remover a div retCronometro quando o contador acabar de contar
-      
-    
-        const backDivTwo = document.getElementById("div-three");
-        backDivTwo.style.background = "url('https://thumbs.gfycat.com/DifferentDimpledHamster-max-1mb.gif')";
+    if (contador == 0) {
+      backDivOne.remove(); //remover a div divTow quando o contador acabar de contar.
+      timer.remove(); //remover a div retCronometro quando o contador acabar de contar
 
-        var buttonReset = document.getElementById('reset');
-        buttonReset.insertAdjacentHTML('afterend', '<div id="reset"> <input type="button" value="Resetar" onClick="window.location.reload()"></div>');
-      }
+      const backDivTwo = document.getElementById("div-three");
+      backDivTwo.style.background =
+        "url('https://thumbs.gfycat.com/DifferentDimpledHamster-max-1mb.gif')";
+
+      var buttonReset = document.getElementById("reset");
+      buttonReset.insertAdjacentHTML(
+        "afterend",
+        '<div id="reset"> <input type="button" value="Resetar" onClick="window.location.reload()"></div>'
+      );
+    }
   }
-  
 }
