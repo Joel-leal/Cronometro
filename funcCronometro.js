@@ -25,10 +25,10 @@ function myFunction() {
       "url('https://thumbs.gfycat.com/SelfreliantClutteredBlackpanther-max-1mb.gif')";
     document.getElementById("div-one").style.display = "none"; // ocultando a div-one quanto o contador
     if (contador == 0) {
-      backDivOne.remove(); //remover a div divTow quando o contador acabar de contar.
+      // backDivOne.remove(); //remover a div divTow quando o contador acabar de contar.
       timer.remove(); //remover a div retCronometro quando o contador acabar de contar
 
-      const backDivTwo = document.getElementById("div-three");
+      const backDivTwo = document.getElementById("div-two");
       backDivTwo.style.background =
         "url('https://thumbs.gfycat.com/DifferentDimpledHamster-max-1mb.gif')";
 
